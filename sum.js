@@ -12,6 +12,7 @@ for (let num of nums) {
   // console.log(num, nums);
   const numProper = Number(num);
   // check to see if its a legit number (NaN means no!)
+  // TODO: Handle whole numbers only 
   if (!isNaN(numProper)) {
     sum += numProper; // sum = sum + num
   }
